@@ -1,0 +1,15 @@
+Airline,Airline/Carrier,National Air Security,Security,Weather,total,airline_name
+WN,6122,1066,12,8843,16043,Southwest Airlines Co.
+EV,3604,6544,1,5082,15231,Atlantic Southeast Airlines
+MQ,2475,3385,1,9164,15025,American Eagle Airlines Inc.
+AA,2879,730,4,7306,10919,American Airlines Inc.
+OO,3205,1216,0,5539,9960,Skywest Airlines Inc.
+UA,2870,391,0,3312,6573,United Air Lines Inc.
+B6,883,928,1,2464,4276,JetBlue Airways
+US,1007,570,0,2490,4067,US Airways Inc.
+DL,594,257,0,2973,3824,Delta Air Lines Inc.
+NK,654,279,3,1068,2004,Spirit Air Lines
+AS,334,18,0,317,669,Alaska Airlines Inc.
+F9,308,0,0,280,588,Frontier Airlines Inc.
+VX,157,365,0,12,534,Virgin America
+HA,170,0,0,1,171,Hawaiian Airlines Inc.

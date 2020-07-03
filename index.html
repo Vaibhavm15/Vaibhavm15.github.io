@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang = "en"
+style = "background-color: #b2b8bf;">
+  <head>
+    <meta charset = "utf-8">
+    <title>Flight Cancellation and Delay </title>
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
+  </head>
+  <body>
+    <div id = "title">
+      <h1 id = "main_title">A Visualization on Flight Cancellations and Delays</h1>
+      <h4 id = "sub_title">U.S. Domestic flights 2015<h4>
+    </div>
+    <div id = "map" ></div>
+    <div style = "margin-left: 16px;">
+    <h3 style = 'margin-top:-434px; width: 116px; color: ivory; font-size:25px;' >Select type of display</h3>
+    <div id = leg_head>circles represent Airports and their color shows number of flights that flew out of that airport</div>
+    <lu id ="radio-toolbar">
+      <li><input type="radio" id="Cancellations" name="mode" value="Cancellations" checked>
+      <label  style = "width: 90px;" for="Cancellations">Cancellations</label></li>
+
+      <li ><input type="radio" id="Delays" name="mode" value="Delays">
+      <label  style = "width: 90px;" for="Delays">Delays</label></li>
+
+      <li ><input type="radio" id="General" name="mode" value="General">
+      <label  style = "width: 90px;" for="General">General</label></li>
+    </lu>
+    <p id = "map_descrip"></p>
+    </div>
+    <div id = "display"></div>
+    <div id = "explain"></div>
+    <div id = "tooltip_airports"></div>
+    <div id = "cancellation">
+      <h2 style = "margin-left: 110px; font-size: 33px; color: #f4da8c;}">  Major Cancellation Reasons</h2>
+        <p id = "can_heading" >percentage of flights cancelled</p>
+        <div id = can_info></div>
+        <div id = can_description></div>
+        <div id = "can_tooltip"></div>
+        <div id = "can_options">
+            <h2 id = "can_options_heading">Trends in No. of flight Cancellations</h2>
+            <p id = "can_option_y">No. of Flights </p>
+            <p id = "can_option_x"></p>
+            <div id = "radios">
+              <input type="radio" id ="month" name= "cancel" value="month"checked >
+              <label for="month">Month</label>
+
+              <input type="radio" id="week" name= "cancel" value="week">
+              <label for="Day of Week">Day of Week</label>
+            </div>
+        </div>
+        <div id = "tooltip_trend"></div>
+        <div id = "can_trend_info"></div>
+      </div>
+      <div id = "can_flight_res">
+        <p id = "stack_x">Airlines</p>
+        <p id = "stack_y">No.of Cancellations</p>
+        <h2 id = "stack_heading">Flights and No. of Cancellations</h2>
+        <div id = "stack_tooltip"></div>
+        <div id = "stack_info">The stacked bar chart clearly indicates weather as the dominating factor in almost all the cases of flight cancellation even in Southwest Airlines Co. which had the most number of cancellations. However , it is interesting to note that Atlantic Southeast airlines which had over 15000 cancellation, the major reason for cancellations were due to National Air System contrary to other airlines which had weather as the main reason. Now it is clear from the stack which airlnes had the most number of cancellations but it does not mean that they were the worst performers. Lets look at next section to know that.  </div>
+      </div>
+      <div id = "bubbles">
+        <div id = "bubble_heading"></div>
+        <lu id ="radios2">
+          <li><input type="radio" id="bub_Cancellations" name="bubble_mode" value="Cancellations" checked>
+          <label  style = "width: 100px;" for="bub_Cancellations">Cancellations</label></li>
+          <li ><input type="radio" id="bub_Delays" name="bubble_mode" value="Delays">
+          <label  style = "width: 100px;" for="bub_Delays">Delays</label></li>
+        </lu>
+          <div id = "bubble_info">Click on the circles to reveal<div>
+     </div>
+    <script type = "text/javascript" , src ="utility.js"></script>
+    <script type = "text/javascript" , src ="code.js"></script>
+  </body>
+</html>

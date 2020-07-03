@@ -1,0 +1,468 @@
+.state{
+  fill: white;
+  stroke: lightblue;
+}
+
+#title{
+
+    height: 46px;
+    margin-top: 19px;
+    background-color: #8ba8ca;
+    width: 1491px;
+
+}
+
+#map{
+    background-color: #3d4954;
+    width: 1491px;
+}
+#choro{
+    margin-left: 180px;
+}
+
+.ylegaxis text{
+  fill : ivory;
+  font-size:14px;
+}
+
+.ylegaxis_circ text{
+  fill : ivory;
+  font-size:14px;
+}
+
+#leg_head{
+  position: absolute;
+  left: 16px;
+  top: 339px;
+  color: aliceblue;
+  font-size: 14px;
+  width: 98px;
+}
+
+#display {
+    font-size: 57px;
+    margin-left: 1085px;
+    margin-top: -269px;
+    color: cyan;
+}
+
+#explain{
+  margin-left: 1095px;
+  margin-top : 40px;
+  font-size: 10px;
+  color: ivory;
+  width: 199px;
+
+    /* writing-mode:vertical-rl; */
+}
+
+#tooltip_airports{
+    position: absolute;
+    border : solid purple 2px;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+
+#leg_circle{
+  position: absolute;
+  top: 341px;
+  left: 133px;
+}
+
+#main_title {
+    line-height: 0px;
+    color: #492a54;
+    margin-left: 280px;
+    font-size: 45px;
+    top: -5px;
+}
+
+
+#sub_title{
+    margin-left: 384px;
+    color: #352a2a;
+    line-height: 0px;
+    position: absolute;
+    top: 33px;
+    font-size: 19px;
+}
+
+#leg{
+    position: absolute;
+    left: 900px;
+    top: 141px;
+}
+
+#cancellation{
+    top: 522px;
+    position: absolute;
+    height: auto;
+    width: 1491px;
+    background-color: #21303f;
+    height: 450px;
+}
+
+.can_graph_x path{
+  stroke: ivory;
+}
+.can_graph_x line{
+  stroke: ivory;
+}
+.can_graph_x text{
+  fill: #b7b778;
+
+
+}
+
+.can_graph_y path{
+  stroke: ivory;
+}
+.can_graph_y line{
+  stroke: ivory;
+}
+.can_graph_y text{
+  fill: #b7b778;
+}
+
+
+
+
+.cancel_reason_bars{
+  color: blue;
+}
+
+#can_heading{
+  position: absolute;
+  top: 226px;
+  left: -78px;
+  -webkit-transform: rotate(-90deg);
+  font-size: 18px;
+  color: cornsilk;
+}
+
+#can_info{
+  position: absolute;
+  top: 102px;
+  left: 433px;
+  font-size: 25px;
+  color: #c7f3f9;
+}
+
+#can_tooltip{
+  color: rgb(210, 218, 232);
+}
+
+#can_description {
+  position: absolute;
+  left: 439px;
+  top: 138px;
+  color: #FFC107;
+  width: 192px;
+}
+
+.line_month {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot_month {
+    fill: red;
+    stroke: #fff;
+}
+
+.trend_month_x path{
+  stroke: ivory;
+}
+.trend_month_x line{
+  stroke: ivory;
+}
+.trend_month_x text{
+  fill: #b7b778;
+
+
+}
+
+.trend_month_y path{
+  stroke: ivory;
+}
+.trend_month_y line{
+  stroke: ivory;
+}
+.trend_month_y text{
+  fill: #b7b778;
+}
+
+#can_month {
+    position: absolute;
+    left: 729px;
+    top: 96px;
+}
+
+.line_week {
+    fill: none;
+    stroke: orange;
+    stroke-width: 3;
+}
+
+  #can_options{
+    position: absolute;
+    left: 972px;
+    width: fit-content;
+    top: 0px;
+    line-height: 0px;
+}
+
+#can_options_heading {
+    font-size: 35px;
+    position: relative;
+    color: #f4d483;
+    margin-left: -87px;
+    margin-top: 53px;
+}
+
+
+#can_option_y{
+    position: absolute;
+    left: -318px;
+    top: 231px;
+    -webkit-transform: rotate(-90deg);
+    font-size: 22px;
+    color: aliceblue;
+}
+
+#can_option_x{
+  Position: absolute;
+  top: 405px;
+  font-size: 22px;
+  color: aliceblue;
+}
+
+#tooltip_trend{
+  color: aliceblue;
+}
+
+#can_trend_info{
+  position: absolute;
+  left: 1285px;
+  top: 130px;
+  color: #ed8b01;
+  font-size: 19px;
+  width: 190px;
+}
+
+#can_flight_res {
+    position: absolute;
+    top: 974px;
+    left: 8px;
+    background-color: #061a2c;
+    width: 1491px;
+    height: 508px;
+  }
+
+#can_res_stack{
+    position: absolute;
+    top: 56px;
+    left: 42px;
+
+}
+
+.axis text {
+  fill: "white" ;
+}
+
+#stack_tooltip{
+
+    font-size: 24px;
+    color: #dcd41d;
+}
+
+
+#stack_heading{
+    position: absolute;
+    color: #e9ff0c;
+    left: 381px;
+}
+
+#stack_y {
+    position: absolute;
+    color: #dbc645;
+    top: 223px;
+    -webkit-transform: rotate(-90deg);
+    left: -47px;
+    font-size: 22px;
+}
+
+#stack_x{
+    position: absolute;
+    top: 444px;
+    font-size: 22px;
+    color: #dbc645;
+    left: 499px;
+}
+
+#stack_info{
+  position: absolute;
+  width: 288px;
+  left: 1081px;
+  top: 53px;
+  color: #ab9ec1;
+  font-size: 19px;
+  text-align: justify;
+}
+
+
+#bubbles{
+    position: absolute;
+    top: 1500px;
+}
+
+#bubbles {
+    position: absolute;
+    top: 1486px;
+    width: 1491px;
+    background: #001221;
+    height: 617px;
+}
+#bubble_heading {
+    position: absolute;
+    font-size: 50px;
+    left: 0px;
+    color: #d55b30;
+    top: 23px;
+    text-align: center;
+    width: 1482px;
+}
+
+#bubble_options{
+  position: absolute;
+    top: 126px;
+    font-size: x-large;
+    list-style: none;
+}
+
+#bubble_info{
+   position: absolute;
+    top: 406px;
+    left: 428px;
+    color: whitesmoke;
+    width: 955px;
+    height: 141px;
+    font-size: 30px;
+}
+
+#hello{
+  font-size:40px;
+  color: #d55b30;
+}
+
+/* ///////////////////////////// */
+#radio-toolbar {
+  margin: 10px;
+  list-style: none;
+}
+
+#radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+#radio-toolbar label {
+  display: inline-block;
+  background-color: #ebeeff;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #624892;
+  border-radius: 4px;
+}
+
+#radio-toolbar label:hover {
+  background-color: #dfd;
+}
+
+#radio-toolbar input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+#radio-toolbar input[type="radio"]:checked + label {
+  background-color: #bbe4ff;
+    border-color: #22c5ff;
+}
+
+
+
+/* //////////////////////////////////////////////// */
+
+#radios {
+  margin: 10px;
+}
+
+#radios input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+  width: 500px;
+}
+
+#radios label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+    border: border: 2px solid #624892;
+    border-radius: 4px;
+}
+
+#radios label:hover {
+  background-color: #dfd;
+}
+
+#radios input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+#radios input[type="radio"]:checked + label {
+  background-color: #bbe4ff;
+    border-color: #22c5ff;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+#radios2 {
+  margin: 10px;
+  list-style: none;
+  position: absolute;
+    top: 210px;
+}
+
+#radios2 input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+#radios2 label {
+  display: inline-block;
+  background-color: #ebeeff;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #624892;
+  border-radius: 4px;
+}
+
+#radios2 label:hover {
+  background-color: #dfd;
+}
+
+#radios2 input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+#radios2 input[type="radio"]:checked + label {
+  background-color: #bbe4ff;
+    border-color: #22c5ff;
+}
